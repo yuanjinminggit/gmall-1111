@@ -7,9 +7,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 /**
  * 分页查询参数
  */
@@ -31,4 +28,11 @@ public class PageParamVo {
 
         return new Page<>(pageNum, pageSize);
     }
+
+
+    // 度符合度回复的话幅度
+
+
+
+
 }
